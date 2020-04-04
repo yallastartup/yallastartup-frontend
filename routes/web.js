@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-commonFunc=require('../src/routers/commonFunc')
+// commonFunc=require('../src/routers/commonFunc')
 // const City=require('../src/models/city');
 //===========Dashboard========================
 
