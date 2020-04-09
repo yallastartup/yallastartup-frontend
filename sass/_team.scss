@@ -1,0 +1,58 @@
+.team {
+	.cnt-block {
+		float: left;
+		width: 100%;
+		background: #fff;
+		padding: 30px 20px;
+		text-align: center;
+		border: 2px solid #d5d5d5;
+		margin: 0 0 28px;
+		figure {
+			width: 148px;
+			height: 148px;
+			border-radius: 100%;
+			display: inline-block;
+			margin-bottom: 15px;
+		}
+		img {
+			width: 148px;
+			height: 148px;
+			border-radius: 100%;
+		}
+		h3 {
+			color: #2a2a2a;
+			font-size: 20px;
+			font-weight: 500;
+			padding: 6px 0;
+			text-transform: uppercase;
+			a {
+				text-decoration: none;
+				color: #2a2a2a;
+				&:hover {
+					color: #337ab7;
+				}
+			}
+		}
+		p {
+			color: #2a2a2a;
+			font-size: 13px;
+			line-height: 20px;
+			font-weight: 400;
+		}
+		.follow-us {
+			margin: 20px 0 0;
+			li {
+				display: inline-block;
+				width: auto;
+				margin: 0 5px;
+				.fa {
+					font-size: 24px;
+					color: #767676;
+					&:hover {
+						color: #025a8e;
+					}
+				}
+			}
+		}
+	}
+}
