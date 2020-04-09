@@ -4,7 +4,7 @@
   "description": "Sokkar Admin Dashboard",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/index.html",
+    "start": "node ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ProCrew",
