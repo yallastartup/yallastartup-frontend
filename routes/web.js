@@ -8,7 +8,7 @@ const router = express.Router();
 
 // END OF CUSTOM MIDDLEWARE
 router.get('/', (req,res,next) => {
-    return res.render('index.hbs');
+    return res.render('index.html');
 
 });
 
