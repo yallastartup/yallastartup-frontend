@@ -1,7 +1,7 @@
 {
-  "name": "sokkar",
+  "name": "yallastartup",
   "version": "1.0.0",
-  "description": "Sokkar Admin Dashboard",
+  "description": "yallastartup Mobile App",
   "main": "index.js",
   "scripts": {
     "start": "node ./src/index.js",
