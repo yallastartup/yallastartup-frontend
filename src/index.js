@@ -28,6 +28,9 @@ hbs.registerPartials(__dirname + '/views/partials');
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'views'));
 
+app.get('/',(req,res)=>{res.render('index')});
+app.get('/signup',(req,res)=>{res.render('signup')});
+
 
 //app.use(express.static(path.join(__dirname, '../public')));
 //hbs.registerPartials(__dirname + '/views/partials');
